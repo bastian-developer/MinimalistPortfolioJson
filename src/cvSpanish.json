@@ -1,0 +1,248 @@
+{
+  "basics": {
+    "name": "Bastián Núñez",
+    "label": "Ingeniero de Software",
+    "image": "https://avatars.githubusercontent.com/u/169011911?v=4",
+    "email": "bastian.development@gmail.com",
+    "phone": "+56957508899",
+    "url": "",
+    "summary": "Ingeniero de Software Creativo con experiencia en el desarrollo de aplicaciones web y juegos de pila completa.",
+    "location": {
+      "address": "",
+      "postalCode": "000000",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Santiago"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bastian-dev",
+        "url": "https://linkedin.com/in/bastian-dev"
+      },
+      {
+        "network": "GitHub",
+        "username": "bastian-developer",
+        "url": "https://github.com/bastian-developer"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OAK Software GmbH",
+      "position": "Practicante de Proyecto",
+      "url": "https://oak-software.de/",
+      "startDate": "2023-12-01",
+      "endDate": "2024-05-01",
+      "summary": "A través de un análisis de seguridad exhaustivo de una aplicación web, se identificaron y abordaron posibles vulnerabilidades, lo que resultó en una mayor resistencia de la aplicación, reducción de riesgos de seguridad y mayor confianza del usuario. Se realizó una investigación exhaustiva sobre temas web y protocolos de seguridad, con hallazgos utilizados para implementar soluciones efectivas y optimizar el rendimiento de la aplicación.",
+      "highlights": [
+        "Satisfecho cada asignación, demostrando eficiencia, proactividad y buena comunicación."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Universidad Tecnológica de Chile INACAP",
+      "position": "Representante Estudiantil",
+      "url": "https://portales.inacap.cl/",
+      "startDate": "2019-03-01",
+      "endDate": "2022-12-31",
+      "summary": "Elegido por la mayoría de los estudiantes universitarios como representante estudiantil para abogar en su nombre ante las autoridades de la organización, organizar actividades estudiantiles y resolver problemas potenciales.",
+      "highlights": ["Mejora de habilidades de comunicación, trabajo en equipo y liderazgo"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Tecnológica de Chile INACAP",
+      "url": "https://portales.inacap.cl/",
+      "area": "Ingeniería de Software",
+      "studyType": "Licenciatura",
+      "startDate": "2019-03-01",
+      "endDate": "2022-12-31",
+      "score": "6.5/7",
+      "courses": [
+        "Aplicaciones Móviles",
+        "Aplicaciones Web",
+        "Programación Orientada a Objetos",
+        "Bases de Datos Relacionales",
+        "Diseño UX/UI",
+        "Inteligencia de Negocios",
+        "Gestión de Proyectos",
+        "Inglés"
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de La Plata",
+      "url": "https://unlp.edu.ar/",
+      "area": "Composición Musical",
+      "studyType": "Licenciatura",
+      "startDate": "2015-03-01",
+      "endDate": "2018-12-31",
+      "score": "9/10",
+      "courses": [
+        "Teoría Musical",
+        "Orquestación",
+        "Armonía",
+        "Contrapunto",
+        "Historia del Arte",
+        "Acústica",
+        "Análisis Musical",
+        "Dirección de Orquesta",
+        "Interpretación Musical"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 2 en Carrera",
+      "date": "2022-12-31",
+      "awarder": "Universidad Tecnológica de Chile INACAP",
+      "summary": "Premio por alcanzar el top 2 en rendimiento académico."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Academy Cloud Foundations",
+      "date": "2022-07-01",
+      "issuer": "Amazon Web Services Academy",
+      "url": "https://www.credly.com/badges/89de108e-c2ef-4f63-a7fd-ce0e8d29c85a/linked_in_profile"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publicación",
+      "publisher": "Compañía",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Descripción…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Unity",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo de Juegos", "Motor de Juegos"]
+    },
+    {
+      "name": "C#",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo de Juegos"]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsivo"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Pila Completa"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework CSS",
+        "Diseño Responsivo"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Superset de JavaScript"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Básico",
+      "keywords": [
+        "Base de Datos",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Básico",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Biblioteca de JavaScript", "Interfaz de Usuario"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Biblioteca de JavaScript", "Interfaz de Usuario"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Vida Silvestre",
+      "keywords": ["Animales", "Plantas"]
+    },
+    {
+      "name": "Música",
+      "keywords": ["Composición", "Interpretación"]
+    },    {
+      "name": "Fotografía",
+      "keywords": ["Paisajes", "Vida Silvestre"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Referencia…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SpaceX Launches",
+      "isActive": true,
+      "description": "Aplicación simple de Astro creada con Tailwind y Typescript que consume la API de SpaceX y muestra los últimos lanzamientos y su información",
+      "highlights": ["Proyecto Corto"],
+      "url": "https://github.com/bastian-developer/SpaceX-Launches"
+    },
+    {
+      "name": "Sistema de Cultivo Automatizado",
+      "isActive": false,
+      "description": "Este sistema utiliza múltiples sensores para monitorear la humedad del aire, la humedad del suelo, la intensidad de la luz y la temperatura, con datos procesados por un microcontrolador Arduino y transmitidos a través de WiFi a una aplicación Android. Los usuarios pueden ver información sobre los cultivos, recibir alertas ambientales y ajustar configuraciones para controlar luces, riego y ventilación a través de la aplicación. Un servidor web basado en PHP soporta la recolección de datos y la gestión de usuarios. El objetivo principal es mejorar la producción de cultivos, automatizar tareas de cultivo y reducir costos al minimizar el uso innecesario de recursos.",
+      "highlights": ["Mejor proyecto y rendimiento como Tesis final"],
+      "url": "https://github.com/bastian-developer/GreenHouse"
+    },
+    {
+      "name": "Juego de Disparos Espaciales",
+      "isActive": true,
+      "description": "El proyecto consiste en la creación de un juego espacial en 2D en el que los jugadores pilotean una nave espacial a través del cosmos, enfrentándose en combate con diversos adversarios. Este proyecto muestra mecánicas de juego esenciales y permite la expresión artística a través de la composición musical y el arte visual. Desarrollado en C# utilizando el motor de juego Unity, el proyecto incorpora elementos de narrativa para enriquecer la experiencia de juego",
+      "highlights": ["En Desarrollo"],
+      "url": "https://github.com/bastian-developer/Starfall"
+    }
+  ]
+}

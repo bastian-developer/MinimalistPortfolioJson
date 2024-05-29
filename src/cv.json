@@ -1,110 +1,248 @@
 {
-    "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Bastián Núñez",
+    "label": "Software Engineer",
+    "image": "https://avatars.githubusercontent.com/u/169011911?v=4",
+    "email": "bastian.development@gmail.com",
+    "phone": "+56957508899",
+    "url": "",
+    "summary": "Creative Software Engineer with experience developing full stack web applications and games. ",
+    "location": {
+      "address": "",
+      "postalCode": "000000",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Santiago"
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bastian-dev",
+        "url": "https://linkedin.com/in/bastian-dev"
+      },
+      {
+        "network": "GitHub",
+        "username": "bastian-developer",
+        "url": "https://github.com/bastian-developer"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OAK Software GmbH",
+      "position": "Project Intern",
+      "url": "https://oak-software.de/",
+      "startDate": "2023-12-01",
+      "endDate": "2024-05-01",
+      "summary": "Through in-depth security analysis of a web application, potential vulnerabilities were identified and promptly addressed, resulting in enhanced application resilience, reduced security risks, and increased user confidence. Extensive research on web topics and security protocols was conducted, with findings leveraged to implement effective solutions and optimize application performance.",
       "highlights": [
-        "Started the company"
+        "Satisfied every assignment, demonstrating efficiency, proactivity and good communication."
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Technological University of Chile INACAP",
+      "position": "Student Representative",
+      "url": "https://portales.inacap.cl/",
+      "startDate": "2019-03-01",
+      "endDate": "2022-12-31",
+      "summary": "Elected by the majority of university students as student representative to advocate on their behalf to the organization's authorities, organize student activities, and resolve potential issues.",
+      "highlights": ["Enhanced communication, teamwork, and leadership skills"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technological University of Chile INACAP",
+      "url": "https://portales.inacap.cl/",
+      "area": "Software Engineer",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "startDate": "2019-03-01",
+      "endDate": "2022-12-31",
+      "score": "6.5/7",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Mobile Applications",
+        "Web Applications",
+        "Object Oriented Programming",
+        "Relational Databases",
+        "UX/UI Design",
+        "Business Intelligence",
+        "Project Management",
+        "English"
       ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
+    },
+    {
+      "institution": "National University of La Plata",
+      "url": "https://unlp.edu.ar/",
+      "area": "Musical Composition",
+      "studyType": "Bachelor",
+      "startDate": "2015-03-01",
+      "endDate": "2018-12-31",
+      "score": "9/10",
+      "courses": [
+        "Music Theory",
+        "Orchestration",
+        "Harmony",
+        "Counterpoint",
+        "Art History",
+        "Acoustics",
+        "Music Analysis",
+        "Conducting",
+        "Musical Interpretation"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 2 in Career",
+      "date": "2022-12-31",
+      "awarder": "Technological University of Chile INACAP",
+      "summary": "Award for achieve top 2 on academical performance"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Academy Cloud Foundations",
+      "date": "2022-07-01",
+      "issuer": "Amazon Web Services Academy",
+      "url": "https://www.credly.com/badges/89de108e-c2ef-4f63-a7fd-ce0e8d29c85a/linked_in_profile"
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Unity",
+      "level": "Intermediate",
+      "keywords": ["Game Development", "Game Engine"]
+    },
+    {
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": ["Game Development"]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
       ]
-    }],
-    "languages": [{
-      "language": "English",
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Basic",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Basic",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
+      "keywords": ["Animals", "Plants"]
+    },
+    {
+      "name": "Music",
+      "keywords": ["Composition", "Interpretation"]
+    },    {
+      "name": "Photography",
+      "keywords": ["Landscapes", "Wildlife"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "SpaceX Launches",
+      "isActive": true,
+      "description": "Simple Astro application made with Tailwind and Typescript that consumes SpaceX API and shows the latests launches and their information",
+      "highlights": ["Short Project"],
+      "url": "https://github.com/bastian-developer/SpaceX-Launches"
+    },
+    {
+      "name": "Automated Crop System",
+      "isActive": false,
+      "description": "This system uses multiple sensors to monitor air humidity, soil moisture, light intensity, and temperature, with data processed by an Arduino micro controller and transmitted via WiFi to an Android app. Users can view crop information, receive environmental alerts, and adjust settings to control lights, irrigation, and ventilation through the app. A PHP-based web server supports data collection and user management. The primary goal is to improve crop production, automate cultivation tasks, and reduce costs by minimizing unnecessary resource use.",
+      "highlights": ["Best project and performance as final Thesis"],
+      "url": "https://github.com/bastian-developer/GreenHouse"
+    },
+    {
+      "name": "Space Shooter Game",
+      "isActive": true,
+      "description": "The project entails the creation of a 2D space-themed game wherein players pilot a spaceship through the cosmos, engaging in combat with diverse adversaries. This endeavor showcases essential gaming mechanics and allows for artistic expression via music composition and visual artwork. Developed in C# using the Unity game engine, the project incorporates storytelling elements to enrich the gaming experience",
+      "highlights": ["In Development"],
+      "url": "https://github.com/bastian-developer/Starfall"
+    }
+  ]
+}
