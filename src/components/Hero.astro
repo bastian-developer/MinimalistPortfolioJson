@@ -1,1 +1,40 @@
-<h2>Hero</h2>
+---
+import  { basics } from '../cv.json'
+const { name, label, image, location, profiles, phone, summary, email } = basics
+const { city, country } = location
+---
+<section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{summary}</h2>
+            <span>
+                <!--icon -->
+                {city}, {country}
+            </span>
+        </div>
+        <footer>
+            {
+                email && (
+                    <a
+                    href={`mailto:${email}`}
+                    title={`Send email to ${name} (${email})`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    ✉️
+                    </a>
+                )
+            }
+        </footer>
+        <figure>
+            <img src={image} alt={name}>
+        </figure>
+    </div>
+</section>
+
+<style>
+    .container {
+
+    }
+</style>
