@@ -1,41 +1,81 @@
 ---
-import { Image } from 'astro:assets'
-import  { basics } from '../../cv-en.json'
-import Section from '../Section.astro'
+import { Image } from "astro:assets";
+import { basics } from "../../cv-en.json";
+import Section from "../Section.astro";
+import Mail from "../../icons/Mail.astro";
+import Phone from "../../icons/Phone.astro";
+import LinkedIn from "../../icons/LinkedIn.astro";
+import GitHub from "../../icons/GitHub.astro";
 
-const { name, label, image, location, profiles, phone, summary, email } = basics
-const { city, country } = location
+const { name, label, image, location, profiles, phone, summary, email } =
+  basics;
+const { city, country } = location;
+
+interface SocialIcons {
+  [key: string]: any;
+}
+
+const SOCIAL_ICONS: SocialIcons = {
+  LinkedIn,
+  GitHub,
+};
 ---
+
 <Section>
-    <div class="container">
-        <div class="info">
-            <h1>{name}</h1>
-            <h2>{summary}</h2>
-            <span>
-                <!--icon -->
-                {city}, {country}
-            </span>
-        </div>
-        <footer>
-            {
-                email && (
-                    <a
-                    href={`mailto:${email}`}
-                    title={`Send email to ${name} (${email})`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    ✉️
-                    </a>
-                )
-            }
-        </footer>
-        <figure>
-            <Image src={image} alt={name} inferSize={true}/>
-        </figure>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{summary}</h2>
+      <span>
+        <!--icon -->
+        {city}, {country}
+      </span>
     </div>
+    <footer>
+      {
+        email && (
+          <a
+            href={`mailto:${email}`}
+            title={`Send email to ${name} (${email})`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        )
+      }
+      {
+        phone && (
+          <a
+            href={`tel:${phone}`}
+            title={`Phone call to ${name} (${phone})`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Phone />
+          </a>
+        )
+      }
+      {
+        profiles.map(({ network, username, url }) => {
+          const Icon = SOCIAL_ICONS[network];
+          return (
+            <a
+              href={url}
+              title={`Go to ${username}'s ${network} profile`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+                <Icon />
+            </a>
+          );
+        })
+      }
+    </footer>
+    <figure>
+      <Image src={image} alt={name} inferSize={true} />
+    </figure>
+  </div>
 </Section>
 
-<style>
-
-</style>
+<style></style>
