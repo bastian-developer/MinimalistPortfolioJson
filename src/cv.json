@@ -226,7 +226,7 @@
     {
       "name": "SpaceX Launches",
       "isActive": true,
-      "description": "Simple Astro application made with Tailwind and Typescript that consumes SpaceX API and shows the latests launches and their information",
+      "description": "Simple Astro application made with Tailwind and Typescript that consumes SpaceX API and shows the latest launches and their information",
       "highlights": ["Short Project"],
       "url": "https://github.com/bastian-developer/SpaceX-Launches"
     },
