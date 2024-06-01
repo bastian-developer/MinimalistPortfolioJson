@@ -114,13 +114,30 @@ const SOCIAL_ICONS: SocialIcons = {
   }
 
   footer {
-    color: #682121;
     font-size: 0.65rem;
     display:flex;
     gap: .5rem;
     margin-top: .5rem;
     justify-content: right;
 
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afadad;
+    padding: 1px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #afadad;
+    border: 1px solid #444;
   }
 
   figure {
