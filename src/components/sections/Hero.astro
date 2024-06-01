@@ -89,11 +89,10 @@ const SOCIAL_ICONS: SocialIcons = {
     width: 100%;
   }
 
-  span  {
-    justify-content: right;
+  .info {
     display: flex;
-    margin-top: 14px;
-    gap: 8px
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   h1 {
@@ -107,12 +106,19 @@ const SOCIAL_ICONS: SocialIcons = {
     text-wrap: balance;
   }
 
+  span  {
+    justify-content: right;
+    display: flex;
+    margin-top: 14px;
+    gap: .5rem
+  }
+
   footer {
     color: #682121;
     font-size: 0.65rem;
     display:flex;
-    gap: 8px;
-    margin-top: 8px;
+    gap: .5rem;
+    margin-top: .5rem;
     justify-content: right;
 
   }
@@ -121,8 +127,8 @@ const SOCIAL_ICONS: SocialIcons = {
     aspect-ratio: 1 / 1;
     border-radius: 16px;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   img.profile {
